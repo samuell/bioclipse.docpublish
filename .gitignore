@@ -1,0 +1,8 @@
+bin
+output
+.settings
+*.class
+Makefile
+*.html
+*-toc.xml
+build.xml
