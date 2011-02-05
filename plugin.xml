@@ -2,14 +2,14 @@
 <?eclipse version="3.4"?>
 <plugin>
 
-      <extension id="UploadMediaWikiText" name="UploadMediaWikiText"
+      <extension id="mwTextUpload" name="UploadMediaWikiText"
           point="org.eclipse.ant.core.antTasks"> 
       <antTask name="updatemwarticle"
           class="net.bioclipse.docpublish.business.UploadMediaWikiTextTask" 
           library="antlib/docpublish_tasks.jar" headless="true" eclipseRuntime="true"/> 
       </extension>
 
-      <extension id="UploadMediaWikiFile" name="UploadMediaWikiFile"
+      <extension id="mwFileUpload" name="UploadMediaWikiFile"
           point="org.eclipse.ant.core.antTasks"> 
       <antTask name="uploadmwfile"
           class="net.bioclipse.docpublish.business.UploadMediaWikiFileTask" 
