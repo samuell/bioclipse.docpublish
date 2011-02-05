@@ -2,30 +2,18 @@
 <?eclipse version="3.4"?>
 <plugin>
 
-   <extension
-         point="org.eclipse.ui.editors">
-      <editor
-            name="Unnamed Editor"
-            extensions="wiki"
-            icon="icons/sample.gif"
-            contributorClass="net.bioclipse.docpublish.editors.MultiPageEditorContributor"
-            class="net.bioclipse.docpublish.editors.MultiPageEditor"
-            id="net.bioclipse.docpublish.editors.MultiPageEditor">
-      </editor>
-   </extension>
-   <extension
-         point="org.eclipse.ui.newWizards">
-      <category
-            name="Sample Wizards"
-            id="net.bioclipse.docpublish">
-      </category>
-      <wizard
-            name="Multi-page Editor file"
-            icon="icons/sample.gif"
-            category="net.bioclipse.docpublish"
-            class="net.bioclipse.docpublish.wizards.SampleNewWizard"
-            id="net.bioclipse.docpublish.wizards.SampleNewWizard">
-      </wizard>
-   </extension>
+      <extension id="UploadMediaWikiText" name="UploadMediaWikiText"
+          point="org.eclipse.ant.core.antTasks"> 
+      <antTask name="updatemwarticle"
+          class="net.bioclipse.docpublish.business.UploadMediaWikiTextTask" 
+          library="antlib/docpublish_tasks.jar" headless="true" eclipseRuntime="true"/> 
+      </extension>
+
+      <extension id="UploadMediaWikiFile" name="UploadMediaWikiFile"
+          point="org.eclipse.ant.core.antTasks"> 
+      <antTask name="uploadmwfile"
+          class="net.bioclipse.docpublish.business.UploadMediaWikiFileTask" 
+          library="antlib/docpublish_tasks.jar" headless="true" eclipseRuntime="true"/> 
+      </extension>
 
 </plugin>
