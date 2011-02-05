@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="lib/bcel-5.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="lib/commons-httpclient-3.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-4.0.jar"/>
+	<classpathentry kind="lib" path="lib/httpcore-4.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/httpmime-4.0.jar"/>
+	<classpathentry kind="lib" path="lib/ivy-1.3.1.jar"/>
+	<classpathentry kind="lib" path="lib/jdom-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.7.jar"/>
+	<classpathentry kind="lib" path="lib/jwbf-1.3.4-20100925.211423-11-core.jar"/>
+	<classpathentry kind="lib" path="lib/jwbf-1.3.4-20100925.211423-11-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/jwbf-1.3.4-20100925.211423-11-mediawiki.jar"/>
+	<classpathentry kind="lib" path="lib/jwbf-1.3.4-20100925.211423-11-sources.jar"/>
+	<classpathentry kind="lib" path="lib/jwbf-1.3.4-20100925.211423-11.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.mylyn.wikitext.core_1.4.0.I20100915-0300-e3x.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.mylyn.wikitext.mediawiki.core_1.4.0.I20100915-0300-e3x.jar"/>
+	<classpathentry kind="lib" path="lib/ant-contrib-1.0b3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
