@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            name="Unnamed Editor"
+            extensions="wiki"
+            icon="icons/sample.gif"
+            contributorClass="net.bioclipse.docpublish.editors.MultiPageEditorContributor"
+            class="net.bioclipse.docpublish.editors.MultiPageEditor"
+            id="net.bioclipse.docpublish.editors.MultiPageEditor">
+      </editor>
+   </extension>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="Sample Wizards"
+            id="net.bioclipse.docpublish">
+      </category>
+      <wizard
+            name="Multi-page Editor file"
+            icon="icons/sample.gif"
+            category="net.bioclipse.docpublish"
+            class="net.bioclipse.docpublish.wizards.SampleNewWizard"
+            id="net.bioclipse.docpublish.wizards.SampleNewWizard">
+      </wizard>
+   </extension>
+
+</plugin>
